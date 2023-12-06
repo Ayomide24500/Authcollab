@@ -5,13 +5,12 @@ import HomeScreen from "../pages/Homescreen";
 export const mainRouter = createBrowserRouter([
   {
     path: "/",
-    element: <Layout/>,
+    element: <Layout />,
     children: [
       {
-          index: true,
-          element: <HomeScreen/>
+        index: true,
+        element: <HomeScreen />,
       },
     ],
-  }
+  },
 ]);
-
